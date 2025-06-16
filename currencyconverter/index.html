@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌍 Currency Converter</h1>
+    <form action="CurrencyConverter" method="post">
+      <input type="number" name="amount" step="0.01" placeholder="Enter amount" required>
+
+      <div class="dropdowns">
+        <select name="from" required>
+          <option value="" disabled selected>From Currency</option>
+          <option value="USD">US Dollar (USD)</option>
+          <option value="INR">Indian Rupee (INR)</option>
+          <option value="EUR">Euro (EUR)</option>
+          <option value="GBP">British Pound (GBP)</option>
+          <option value="JPY">Japanese Yen (JPY)</option>
+          <option value="AUD">Australian Dollar (AUD)</option>
+          <option value="CAD">Canadian Dollar (CAD)</option>
+        </select>
+
+        <span>→</span>
+
+        <select name="to" required>
+          <option value="" disabled selected>To Currency</option>
+          <option value="USD">US Dollar (USD)</option>
+          <option value="INR">Indian Rupee (INR)</option>
+          <option value="EUR">Euro (EUR)</option>
+          <option value="GBP">British Pound (GBP)</option>
+          <option value="JPY">Japanese Yen (JPY)</option>
+          <option value="AUD">Australian Dollar (AUD)</option>
+          <option value="CAD">Canadian Dollar (CAD)</option>
+        </select>
+      </div>
+
+      <button type="submit">Convert</button>
+    </form>
+  </div>
+</body>
+</html>

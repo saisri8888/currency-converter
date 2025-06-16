@@ -1,0 +1,10 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="3.1">
+    <servlet>
+        <servlet-name>CurrencyConverter</servlet-name>
+        <servlet-class>CurrencyConverter</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CurrencyConverter</servlet-name>
+        <url-pattern>/CurrencyConverter</url-pattern>
+    </servlet-mapping>
+</web-app>
